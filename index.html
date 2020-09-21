@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link active"
+            id="pills-home-tab"
+            data-toggle="pill"
+            href="#pills-home"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+            >Shopping</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            id="pills-profile-tab"
+            data-toggle="pill"
+            href="#pills-profile"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+            >Profile</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            id="pills-contact-tab"
+            data-toggle="pill"
+            href="#pills-contact"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="shop">
+        <div class="card bg-light mb-3" style="max-width: 18rem">
+          <div class="card-header">
+            <div>Prix=<span class="prix">35</span>$</div>
+            <div>
+              <i class="heart fa fa-heart"></i>
+            </div>
+            <i class="fas fa-times-circle"></i>
+          </div>
+          <div class="card-body">
+            <img class="card-img-top" src="./super mario.jpg" alt="" />
+            <h5 class="card-title">Papper Mario Origami King</h5>
+            <button class="qt-minus">-</button>
+            <span
+              class="qt"
+              style="
+                background-color: #ffffff;
+                border: #ffffff none 0px;
+                text-align: center;
+                font-size: 30px;
+              "
+              >0
+            </span>
+            <button class="qt-plus">+</button>
+          </div>
+        </div>
+        <div class="card bg-light mb-3" style="max-width: 18rem">
+          <div class="card-header">
+            <div>Prix=<span class="prix">25</span>$</div>
+            <div>
+              <i class="heart fa fa-heart"></i>
+            </div>
+            <i class="fas fa-times-circle"></i>
+          </div>
+          <div class="card-body">
+            <img class="card-img-top" src="./pes2021.jpg" alt="" />
+            <h5 class="card-title">Pes2021</h5>
+            <button class="qt-minus">-</button>
+            <span
+              class="qt"
+              style="
+                background-color: #ffffff;
+                border: #ffffff none 0px;
+                text-align: center;
+                font-size: 30px;
+              "
+              >0
+            </span>
+            <button class="qt-plus">+</button>
+          </div>
+        </div>
+        <div class="card bg-light mb-3" style="max-width: 18rem">
+          <div class="card-header">
+            <div>Prix=<span class="prix">23</span>$</div>
+            <div>
+              <i class="heart fa fa-heart"></i>
+            </div>
+            <i class="fas fa-times-circle"></i>
+          </div>
+          <div class="card-body">
+            <img class="card-img-top" src="./ghost.jpg" alt="" />
+            <h5 class="card-title">Ghost</h5>
+            <button class="qt-minus">-</button>
+            <span
+              class="qt"
+              style="
+                background-color: #ffffff;
+                border: #ffffff none 0px;
+                text-align: center;
+                font-size: 30px;
+              "
+              >0
+            </span>
+            <button class="qt-plus">+</button>
+          </div>
+        </div>
+        <div class="card bg-light mb-3" style="max-width: 18rem">
+          <div class="card-header">
+            <div>Prix=<span class="prix">30</span>$</div>
+            <div>
+              <i class="heart fa fa-heart"></i>
+            </div>
+            <i class="fas fa-times-circle"></i>
+          </div>
+          <div class="card-body">
+            <img class="card-img-top" src="./avenger.jpg" alt="" />
+            <h5 class="card-title">Avengers</h5>
+            <button class="qt-minus">-</button>
+            <span
+              class="qt"
+              style="
+                background-color: #ffffff;
+                border: #ffffff none 0px;
+                text-align: center;
+                font-size: 30px;
+              "
+              >0
+            </span>
+            <button class="qt-plus">+</button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h1 class="total">Total: <span id="full-price">0</span>$</h1>
+      </section>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./java.js"></script>
+  </body>
+</html>
